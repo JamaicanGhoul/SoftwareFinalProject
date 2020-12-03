@@ -1,0 +1,94 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: lightsalmon
+}
+.main-container {
+        /*border: 2px solid black;*/
+        /*position: absolute;*/
+		box-sizing: border-box;
+		background:rgb(194, 141, 141);;
+		width: 360px;
+        height: 640px;
+        margin: 45px auto;
+		background-color: rgb(79, 234, 255);
+        overflow-y: auto;
+        border-radius: 7px;
+        font-family: "Colus";
+}
+.tablearea{
+    width: 320px;
+    height: 640px;
+    box-sizing: border-box;
+    margin: 5px auto;
+
+    overflow-y: auto;
+
+
+}
+#myInput {
+    left: 30px;
+    width: 60%;
+    font-size: 16px;
+    border: 1px solid lightslategrey;
+    margin-bottom: 12px;
+  }
+.subarea{
+    width: 320px;
+    height: 640px;
+    box-sizing: border-box;
+    margin: 5px auto;
+    overflow: scroll;
+
+
+}
+.button{
+    border: none;
+    background: none;
+    width: 25;
+    height: 25;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height:150px;
+     overflow:hidden;
+  }
+  tr{
+      background: lightgrey;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: gray;
+  }  
+header{
+    position: relative; 
+    overflow: hidden;
+    left: 25px;
+    top: 20px;
+    text-align: center;
+     font-family: Script MT;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 45px;
+ }
+ #Icon___Menu___Rounded {
+	opacity: 0.5;
+	position: absolute;
+	width: 36px;
+	height: 52px;
+	left: 591px;
+	top: -90px;
+	overflow: visible;
+}
